@@ -7,6 +7,7 @@
     <COMPID name="GameLogic" mc="Class" uid="a2e0138e-a5ef-4528-9f24-0f8831aec14c"/>
     <COMPID name="Model" mc="Class" uid="c4ec7ed4-e810-43fc-9ac5-6e27f859e49c"/>
     <COMPID name="PlayerView" mc="Class" uid="359126d9-1b37-4e68-9dfa-127001fb8471"/>
+    <COMPID name="Renderer" mc="Class" uid="a320236e-242c-4b65-b3c4-bcc3ce0c36ef"/>
     <COMPID name="WorldObject" mc="Class" uid="067eee4b-62dc-4e3c-ba3c-e27f536aadcc"/>
   </DEPS>
   <OBJECT>
@@ -28,6 +29,7 @@
         <COMPID name="Model" mc="Class" uid="c4ec7ed4-e810-43fc-9ac5-6e27f859e49c"/>
         <COMPID name="WorldObject" mc="Class" uid="067eee4b-62dc-4e3c-ba3c-e27f536aadcc"/>
         <COMPID name="Character" mc="Class" uid="32344882-2824-418f-a815-feb373968098"/>
+        <COMPID name="Renderer" mc="Class" uid="a320236e-242c-4b65-b3c4-bcc3ce0c36ef"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Design Class diagram" mc="ClassDiagram" uid="8213c5d6-8067-46f8-a1d3-a8ee5a43a18d"/>
