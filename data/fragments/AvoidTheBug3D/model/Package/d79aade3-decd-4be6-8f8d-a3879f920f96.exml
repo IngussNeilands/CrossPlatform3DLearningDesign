@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Design" version="3">
+  <DEPS>
+    <ID name="Design" mc="Package" uid="d79aade3-decd-4be6-8f8d-a3879f920f96"/>
+    <COMPID name="Class" mc="Class" uid="a2e0138e-a5ef-4528-9f24-0f8831aec14c"/>
+    <COMPID name="Design Class diagram" mc="ClassDiagram" uid="8213c5d6-8067-46f8-a1d3-a8ee5a43a18d"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Design" mc="Package" uid="d79aade3-decd-4be6-8f8d-a3879f920f96"/>
+    <PID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Design]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Class" mc="Class" uid="a2e0138e-a5ef-4528-9f24-0f8831aec14c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Design Class diagram" mc="ClassDiagram" uid="8213c5d6-8067-46f8-a1d3-a8ee5a43a18d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

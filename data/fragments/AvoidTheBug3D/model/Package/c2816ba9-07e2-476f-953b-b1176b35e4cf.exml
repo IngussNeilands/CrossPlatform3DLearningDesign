@@ -4,6 +4,7 @@
     <ID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
     <COMPID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
     <COMPID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+    <COMPID name="Design" mc="Package" uid="d79aade3-decd-4be6-8f8d-a3879f920f96"/>
     <COMPID name="Doxygen" mc="Component" uid="61ca34ac-3c8d-4129-ba12-0863bddd4ea6"/>
     <COMPID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
     <COMPID name="Linux - make" mc="Component" uid="e2286d32-c87e-4878-bf63-6831794709ab"/>
@@ -36,6 +37,7 @@
         <COMPID name="Linux - make" mc="Component" uid="e2286d32-c87e-4878-bf63-6831794709ab"/>
         <COMPID name="Windows - VS Project" mc="Component" uid="877be88e-0bfe-4f1c-95f5-6e31942efc4d"/>
         <COMPID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
+        <COMPID name="Design" mc="Package" uid="d79aade3-decd-4be6-8f8d-a3879f920f96"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="ClassDiagram" uid="e13beaa4-2657-41b2-9e5c-afc0f36fa970"/>
