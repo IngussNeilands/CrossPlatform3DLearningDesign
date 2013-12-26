@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="OpenGL" version="3">
+  <DEPS>
+    <ID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+    <EXTID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+    <PID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[OpenGL]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Port" uid="23554363-cc5c-4822-8b35-1b335d0bbab3"/>
+          <PID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="RequiredInterface" uid="5c825379-93d0-41d2-a32d-7c02161f2480"/>
+                <PID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port1" mc="Port" uid="a898c8e5-6c57-4bd0-9200-8e7c1efdc232"/>
+          <PID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="ProvidedInterface" uid="5fc0204e-f597-4a0b-b2dc-e096cc6a2019"/>
+                <PID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="NaryConnectorEnd" uid="1b7ac9a2-2e1b-4ede-aa70-50d9db4e3c6c"/>
+                <PID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="NaryConnector" uid="4a5208db-a985-41e0-947f-0a61f3cf02f0"/>
+                      <PID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <COMPID name="" mc="NaryConnectorEnd" uid="1b7ac9a2-2e1b-4ede-aa70-50d9db4e3c6c"/>
+                          <OBJECT>
+                            <ID name="" mc="NaryConnectorEnd" uid="1b0d11ab-6799-4152-a1cd-cb633fff0060"/>
+                            <PID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="NaryConnector" uid="4a5208db-a985-41e0-947f-0a61f3cf02f0"/>
+                              </COMP>
+                              <LINK relation="Provider">
+                                <REFOBJ>
+                                  <ID name="ProvidedInterface" mc="ProvidedInterface" uid="5fc0204e-f597-4a0b-b2dc-e096cc6a2019"/>
+                                  <PID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Consumer">
+                    <REFOBJ>
+                      <ID name="RequiredInterface" mc="RequiredInterface" uid="60433cc4-51bd-4975-bae7-1224e613446d"/>
+                      <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,324 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Game Code" version="3">
+  <DEPS>
+    <ID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+    <EXTID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+    <EXTID name="Doxygen" mc="Component" uid="61ca34ac-3c8d-4129-ba12-0863bddd4ea6"/>
+    <EXTID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+    <PID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Game Code]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Port" uid="df4c92b5-22c0-40e1-8675-a08c34ac84e9"/>
+          <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="ProvidedInterface" uid="f97c7f5a-ef82-4a41-b7b0-cd5c9c5cf1ee"/>
+                <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="NaryConnectorEnd" uid="2c9a223f-be9c-4c1d-a0a0-2bf4e98eb2d5"/>
+                <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="NaryConnector" uid="1ef2bbbb-3116-45ba-8329-34aaada5c736"/>
+                      <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <COMPID name="" mc="NaryConnectorEnd" uid="2c9a223f-be9c-4c1d-a0a0-2bf4e98eb2d5"/>
+                          <OBJECT>
+                            <ID name="" mc="NaryConnectorEnd" uid="000a3909-4cc4-4716-a465-5b3ef365698a"/>
+                            <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="NaryConnector" uid="1ef2bbbb-3116-45ba-8329-34aaada5c736"/>
+                              </COMP>
+                              <LINK relation="Provider">
+                                <REFOBJ>
+                                  <ID name="ProvidedInterface" mc="ProvidedInterface" uid="f97c7f5a-ef82-4a41-b7b0-cd5c9c5cf1ee"/>
+                                  <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Consumer">
+                    <REFOBJ>
+                      <ID name="RequiredInterface" mc="RequiredInterface" uid="899409fe-95bc-4d6d-9867-8b8b6991f718"/>
+                      <PID name="Doxygen" mc="Component" uid="61ca34ac-3c8d-4129-ba12-0863bddd4ea6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port1" mc="Port" uid="169d091f-be5a-4a1d-b72b-2e0c692b717f"/>
+          <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="ProvidedInterface" uid="c4c0fb22-4b09-4f7d-91f4-0609834aab34"/>
+                <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="NaryConnectorEnd" uid="9701f961-c7de-4a2c-896f-897f87f30538"/>
+                <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="NaryConnector" uid="021f74f6-998c-44ef-8234-b8465a8c84ed"/>
+                      <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <COMPID name="" mc="NaryConnectorEnd" uid="9701f961-c7de-4a2c-896f-897f87f30538"/>
+                          <OBJECT>
+                            <ID name="" mc="NaryConnectorEnd" uid="96f35b04-e27b-4b8c-9329-532767be62bf"/>
+                            <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="NaryConnector" uid="021f74f6-998c-44ef-8234-b8465a8c84ed"/>
+                              </COMP>
+                              <LINK relation="Provider">
+                                <REFOBJ>
+                                  <ID name="ProvidedInterface" mc="ProvidedInterface" uid="c4c0fb22-4b09-4f7d-91f4-0609834aab34"/>
+                                  <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Consumer">
+                    <REFOBJ>
+                      <ID name="RequiredInterface" mc="RequiredInterface" uid="15550dc7-fddf-433a-9234-304fb968d8b9"/>
+                      <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port2" mc="Port" uid="5efb726f-49e0-49c3-8496-8d4bf699897b"/>
+          <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="ProvidedInterface" uid="09a84a74-8b46-45e5-98ce-c89e2c9a7245"/>
+                <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="NaryConnectorEnd" uid="1f58909c-71d6-42d9-92b1-7cd98adb7fbc"/>
+                <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="NaryConnector" uid="9c0be776-b1cf-4749-ac09-a64e3bc47025"/>
+                      <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <COMPID name="" mc="NaryConnectorEnd" uid="1f58909c-71d6-42d9-92b1-7cd98adb7fbc"/>
+                          <OBJECT>
+                            <ID name="" mc="NaryConnectorEnd" uid="14d81da0-586e-49c6-941c-b989e31f6760"/>
+                            <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="NaryConnector" uid="9c0be776-b1cf-4749-ac09-a64e3bc47025"/>
+                              </COMP>
+                              <LINK relation="Provider">
+                                <REFOBJ>
+                                  <ID name="ProvidedInterface" mc="ProvidedInterface" uid="09a84a74-8b46-45e5-98ce-c89e2c9a7245"/>
+                                  <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Consumer">
+                    <REFOBJ>
+                      <ID name="RequiredInterface" mc="RequiredInterface" uid="f3232984-ddb8-4fee-93d0-b67f2bf3830a"/>
+                      <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port3" mc="Port" uid="04975494-bb7d-42a1-bc42-2c6dd53b5f1c"/>
+          <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port3]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="RequiredInterface" uid="60433cc4-51bd-4975-bae7-1224e613446d"/>
+                <PID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

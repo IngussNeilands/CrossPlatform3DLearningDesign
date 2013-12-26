@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Doxygen" version="3">
+  <DEPS>
+    <ID name="Doxygen" mc="Component" uid="61ca34ac-3c8d-4129-ba12-0863bddd4ea6"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Doxygen" mc="Component" uid="61ca34ac-3c8d-4129-ba12-0863bddd4ea6"/>
+    <PID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Doxygen]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Port" uid="2fb1c66f-eca4-4784-91f4-dfb90ae2b7fe"/>
+          <PID name="Doxygen" mc="Component" uid="61ca34ac-3c8d-4129-ba12-0863bddd4ea6"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="RequiredInterface" uid="899409fe-95bc-4d6d-9867-8b8b6991f718"/>
+                <PID name="Doxygen" mc="Component" uid="61ca34ac-3c8d-4129-ba12-0863bddd4ea6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

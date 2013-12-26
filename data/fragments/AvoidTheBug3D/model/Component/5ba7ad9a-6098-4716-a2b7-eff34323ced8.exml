@@ -1,0 +1,263 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CMake" version="3">
+  <DEPS>
+    <ID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+    <EXTID name="Linux - make" mc="Component" uid="e2286d32-c87e-4878-bf63-6831794709ab"/>
+    <EXTID name="Windows - VS Project" mc="Component" uid="877be88e-0bfe-4f1c-95f5-6e31942efc4d"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+    <PID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CMake]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Port" uid="1ffe5986-24a2-484a-81d3-c383480fa942"/>
+          <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="RequiredInterface" uid="f3232984-ddb8-4fee-93d0-b67f2bf3830a"/>
+                <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port1" mc="Port" uid="36150624-b7bb-44da-9459-2f3d75898b50"/>
+          <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="ProvidedInterface" uid="4d8894af-36d4-4259-8657-bae68c697f9e"/>
+                <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="NaryConnectorEnd" uid="999ae448-6413-4529-b5e0-f7f294b0e043"/>
+                <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="NaryConnector" uid="8cf0763a-6743-49c2-aecf-3ec0cb38439d"/>
+                      <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <COMPID name="" mc="NaryConnectorEnd" uid="999ae448-6413-4529-b5e0-f7f294b0e043"/>
+                          <OBJECT>
+                            <ID name="" mc="NaryConnectorEnd" uid="e7ed2fe9-a4ab-4404-aaea-7bcd07def879"/>
+                            <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="NaryConnector" uid="8cf0763a-6743-49c2-aecf-3ec0cb38439d"/>
+                              </COMP>
+                              <LINK relation="Provider">
+                                <REFOBJ>
+                                  <ID name="ProvidedInterface" mc="ProvidedInterface" uid="4d8894af-36d4-4259-8657-bae68c697f9e"/>
+                                  <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Consumer">
+                    <REFOBJ>
+                      <ID name="RequiredInterface" mc="RequiredInterface" uid="d265137e-9b98-4a0d-bdb4-e6dbaa8640f9"/>
+                      <PID name="Windows - VS Project" mc="Component" uid="877be88e-0bfe-4f1c-95f5-6e31942efc4d"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port2" mc="Port" uid="900af8af-9758-4464-bf38-c386279e5b32"/>
+          <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="ProvidedInterface" uid="20d62de7-c76f-4f15-9ab8-44b66fd5af1c"/>
+                <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="NaryConnectorEnd" uid="bbea6767-5d55-42c2-9d5a-a9cbea14dbcd"/>
+                <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="NaryConnector" uid="c107d05e-a686-4610-98ce-c7ee5ab6435e"/>
+                      <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <COMPID name="" mc="NaryConnectorEnd" uid="bbea6767-5d55-42c2-9d5a-a9cbea14dbcd"/>
+                          <OBJECT>
+                            <ID name="" mc="NaryConnectorEnd" uid="5b032b3d-8494-45f2-9f2f-50d6443527c8"/>
+                            <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="NaryConnector" uid="c107d05e-a686-4610-98ce-c7ee5ab6435e"/>
+                              </COMP>
+                              <LINK relation="Provider">
+                                <REFOBJ>
+                                  <ID name="ProvidedInterface" mc="ProvidedInterface" uid="20d62de7-c76f-4f15-9ab8-44b66fd5af1c"/>
+                                  <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Consumer">
+                    <REFOBJ>
+                      <ID name="RequiredInterface" mc="RequiredInterface" uid="23d005e8-8744-44d0-9816-32ce718aadb0"/>
+                      <PID name="Linux - make" mc="Component" uid="e2286d32-c87e-4878-bf63-6831794709ab"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port3" mc="Port" uid="c34eb909-4950-41db-8e43-5536ce370baa"/>
+          <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port3]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="RequiredInterface" uid="1f7b0684-7dfd-4d1e-b794-882deda872ba"/>
+                <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

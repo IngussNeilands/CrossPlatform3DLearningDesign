@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AvoidTheBug3D" version="3">
+  <DEPS>
+    <ID name="AvoidTheBug3D" mc="AnalystProject" uid="8965c3a7-7adf-4562-9d07-f7a652f795a9"/>
+    <COMPID name="AvoidTheBug3D" mc="PropertyContainer" uid="9f47d634-fe9c-4eb4-9369-97f0215c2689"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="AvoidTheBug3D" mc="AnalystProject" uid="8965c3a7-7adf-4562-9d07-f7a652f795a9"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[AvoidTheBug3D]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="AvoidTheBug3D" mc="PropertyContainer" uid="9f47d634-fe9c-4eb4-9369-97f0215c2689"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

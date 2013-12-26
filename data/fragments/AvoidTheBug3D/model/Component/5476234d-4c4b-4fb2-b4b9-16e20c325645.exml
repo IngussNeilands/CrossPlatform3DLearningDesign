@@ -1,0 +1,173 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Unit Testing Code" version="3">
+  <DEPS>
+    <ID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+    <EXTID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+    <PID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Unit Testing Code]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Port" uid="6baf9673-9d47-4c64-8f5e-44f82156a4fd"/>
+          <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="RequiredInterface" uid="15550dc7-fddf-433a-9234-304fb968d8b9"/>
+                <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port1" mc="Port" uid="151962ab-ca3b-4eb7-b2f5-0fa250986948"/>
+          <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="RequiredInterface" uid="bc300839-1891-4c59-92d3-768b505e620f"/>
+                <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port2" mc="Port" uid="7f13e31d-b80f-41a8-a6b7-4b8ab4e6e453"/>
+          <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="ProvidedInterface" uid="2339dc5d-2137-4f57-969d-b918bc61ee1b"/>
+                <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="NaryConnectorEnd" uid="2022914c-ccf1-4f26-8b08-f0032ce011ce"/>
+                <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="NaryConnector" uid="37bcf374-66f1-40d5-8f04-081f966650c8"/>
+                      <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <COMPID name="" mc="NaryConnectorEnd" uid="2022914c-ccf1-4f26-8b08-f0032ce011ce"/>
+                          <OBJECT>
+                            <ID name="" mc="NaryConnectorEnd" uid="261e2185-1da4-42f4-9d97-c972bc11de20"/>
+                            <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="NaryConnector" uid="37bcf374-66f1-40d5-8f04-081f966650c8"/>
+                              </COMP>
+                              <LINK relation="Provider">
+                                <REFOBJ>
+                                  <ID name="ProvidedInterface" mc="ProvidedInterface" uid="2339dc5d-2137-4f57-969d-b918bc61ee1b"/>
+                                  <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Consumer">
+                    <REFOBJ>
+                      <ID name="RequiredInterface" mc="RequiredInterface" uid="1f7b0684-7dfd-4d1e-b794-882deda872ba"/>
+                      <PID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

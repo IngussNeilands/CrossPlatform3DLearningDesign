@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AvoidTheBug3D" version="3">
+  <DEPS>
+    <ID name="AvoidTheBug3D" mc="DiagramSet" uid="4f194830-e229-453d-b5c9-8e51733030a1"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="AvoidTheBug3D" mc="DiagramSet" uid="4f194830-e229-453d-b5c9-8e51733030a1"/>
+    <PID name="AvoidTheBug3D" mc="Project" uid="08e1908c-c2da-4e69-b300-1dafca9dcf50"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[AvoidTheBug3D]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

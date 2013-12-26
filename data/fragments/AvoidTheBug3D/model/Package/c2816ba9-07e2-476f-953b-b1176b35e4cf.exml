@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="avoidthebug3d" version="3">
+  <DEPS>
+    <ID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
+    <COMPID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
+    <COMPID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+    <COMPID name="Doxygen" mc="Component" uid="61ca34ac-3c8d-4129-ba12-0863bddd4ea6"/>
+    <COMPID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+    <COMPID name="Linux - make" mc="Component" uid="e2286d32-c87e-4878-bf63-6831794709ab"/>
+    <COMPID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+    <COMPID name="SDL" mc="Component" uid="32c90b06-9b54-4948-bffd-31f5385290ea"/>
+    <COMPID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+    <COMPID name="Windows - VS Project" mc="Component" uid="877be88e-0bfe-4f1c-95f5-6e31942efc4d"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="e13beaa4-2657-41b2-9e5c-afc0f36fa970"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
+    <PID name="AvoidTheBug3D" mc="Project" uid="08e1908c-c2da-4e69-b300-1dafca9dcf50"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[avoidthebug3d]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Game Code" mc="Component" uid="42edf17c-a014-4a7d-a9e9-49f06ea52412"/>
+        <COMPID name="Doxygen" mc="Component" uid="61ca34ac-3c8d-4129-ba12-0863bddd4ea6"/>
+        <COMPID name="CMake" mc="Component" uid="5ba7ad9a-6098-4716-a2b7-eff34323ced8"/>
+        <COMPID name="OpenGL" mc="Component" uid="94c963be-9dd7-4d43-9822-f748e88bf20f"/>
+        <COMPID name="SDL" mc="Component" uid="32c90b06-9b54-4948-bffd-31f5385290ea"/>
+        <COMPID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+        <COMPID name="Linux - make" mc="Component" uid="e2286d32-c87e-4878-bf63-6831794709ab"/>
+        <COMPID name="Windows - VS Project" mc="Component" uid="877be88e-0bfe-4f1c-95f5-6e31942efc4d"/>
+        <COMPID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="e13beaa4-2657-41b2-9e5c-afc0f36fa970"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

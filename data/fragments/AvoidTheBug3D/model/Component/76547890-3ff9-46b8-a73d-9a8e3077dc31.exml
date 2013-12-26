@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Boost Test" version="3">
+  <DEPS>
+    <ID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
+    <EXTID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
+    <PID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Boost Test]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Port" uid="516813fa-41aa-4ff5-8484-5a7e6b084824"/>
+          <PID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="ProvidedInterface" uid="f47b711d-fef8-4166-b33e-827256b6606d"/>
+                <PID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="NaryConnectorEnd" uid="ff91a6c5-8154-432f-9503-98130853abbf"/>
+                <PID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="NaryConnector" uid="ed2df97b-1c52-4b64-83dc-b4f6a4bdee3e"/>
+                      <PID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <COMPID name="" mc="NaryConnectorEnd" uid="ff91a6c5-8154-432f-9503-98130853abbf"/>
+                          <OBJECT>
+                            <ID name="" mc="NaryConnectorEnd" uid="47d0e1c1-3387-4649-826a-d921e7ab51ba"/>
+                            <PID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="NaryConnector" uid="ed2df97b-1c52-4b64-83dc-b4f6a4bdee3e"/>
+                              </COMP>
+                              <LINK relation="Provider">
+                                <REFOBJ>
+                                  <ID name="ProvidedInterface" mc="ProvidedInterface" uid="f47b711d-fef8-4166-b33e-827256b6606d"/>
+                                  <PID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Consumer">
+                    <REFOBJ>
+                      <ID name="RequiredInterface" mc="RequiredInterface" uid="bc300839-1891-4c59-92d3-768b505e620f"/>
+                      <PID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
