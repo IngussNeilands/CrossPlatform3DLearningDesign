@@ -2,8 +2,12 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Design" version="3">
   <DEPS>
     <ID name="Design" mc="Package" uid="d79aade3-decd-4be6-8f8d-a3879f920f96"/>
-    <COMPID name="Class" mc="Class" uid="a2e0138e-a5ef-4528-9f24-0f8831aec14c"/>
+    <COMPID name="Character" mc="Class" uid="32344882-2824-418f-a815-feb373968098"/>
     <COMPID name="Design Class diagram" mc="ClassDiagram" uid="8213c5d6-8067-46f8-a1d3-a8ee5a43a18d"/>
+    <COMPID name="GameLogic" mc="Class" uid="a2e0138e-a5ef-4528-9f24-0f8831aec14c"/>
+    <COMPID name="Model" mc="Class" uid="c4ec7ed4-e810-43fc-9ac5-6e27f859e49c"/>
+    <COMPID name="PlayerView" mc="Class" uid="359126d9-1b37-4e68-9dfa-127001fb8471"/>
+    <COMPID name="WorldObject" mc="Class" uid="067eee4b-62dc-4e3c-ba3c-e27f536aadcc"/>
   </DEPS>
   <OBJECT>
     <ID name="Design" mc="Package" uid="d79aade3-decd-4be6-8f8d-a3879f920f96"/>
@@ -19,7 +23,11 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Class" mc="Class" uid="a2e0138e-a5ef-4528-9f24-0f8831aec14c"/>
+        <COMPID name="GameLogic" mc="Class" uid="a2e0138e-a5ef-4528-9f24-0f8831aec14c"/>
+        <COMPID name="PlayerView" mc="Class" uid="359126d9-1b37-4e68-9dfa-127001fb8471"/>
+        <COMPID name="Model" mc="Class" uid="c4ec7ed4-e810-43fc-9ac5-6e27f859e49c"/>
+        <COMPID name="WorldObject" mc="Class" uid="067eee4b-62dc-4e3c-ba3c-e27f536aadcc"/>
+        <COMPID name="Character" mc="Class" uid="32344882-2824-418f-a815-feb373968098"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Design Class diagram" mc="ClassDiagram" uid="8213c5d6-8067-46f8-a1d3-a8ee5a43a18d"/>
