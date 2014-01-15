@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RendererOpenGL14" version="3">
+  <DEPS>
+    <ID name="RendererOpenGL14" mc="Class" uid="1b03ab8d-2cdf-418c-8674-bbec0298ef99"/>
+    <EXTID name="Renderer" mc="Class" uid="a320236e-242c-4b65-b3c4-bcc3ce0c36ef"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="RendererOpenGL14" mc="Class" uid="1b03ab8d-2cdf-418c-8674-bbec0298ef99"/>
+    <PID name="Design" mc="Package" uid="d79aade3-decd-4be6-8f8d-a3879f920f96"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RendererOpenGL14]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="9c1cec37-9ce5-471e-bec5-0fd32ae583a8"/>
+          <PID name="RendererOpenGL14" mc="Class" uid="1b03ab8d-2cdf-418c-8674-bbec0298ef99"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Renderer" mc="Class" uid="a320236e-242c-4b65-b3c4-bcc3ce0c36ef"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
