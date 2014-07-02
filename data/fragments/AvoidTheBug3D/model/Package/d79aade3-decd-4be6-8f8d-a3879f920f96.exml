@@ -8,6 +8,7 @@
     <COMPID name="GameException" mc="Class" uid="aa6f0f51-59ff-4971-84ff-061283be3b97"/>
     <COMPID name="GameLog" mc="Class" uid="9c4fdf15-8971-47ef-bb4c-808868316b81"/>
     <COMPID name="GameLogic" mc="Class" uid="a2e0138e-a5ef-4528-9f24-0f8831aec14c"/>
+    <COMPID name="Image" mc="Class" uid="ed41e99d-efc5-4c82-89e9-262d2e79fecb"/>
     <COMPID name="Model" mc="Class" uid="c4ec7ed4-e810-43fc-9ac5-6e27f859e49c"/>
     <COMPID name="PlayerView" mc="Class" uid="359126d9-1b37-4e68-9dfa-127001fb8471"/>
     <COMPID name="Renderer" mc="Class" uid="a320236e-242c-4b65-b3c4-bcc3ce0c36ef"/>
@@ -40,6 +41,7 @@
         <COMPID name="RendererOpenGL14" mc="Class" uid="1b03ab8d-2cdf-418c-8674-bbec0298ef99"/>
         <COMPID name="RendererOpenGL33" mc="Class" uid="260f7ac3-79c6-4c11-b402-e6615cac7047"/>
         <COMPID name="Configuration" mc="Class" uid="368edce8-d133-4b23-969b-1df6c60bcb64"/>
+        <COMPID name="Image" mc="Class" uid="ed41e99d-efc5-4c82-89e9-262d2e79fecb"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Design Class diagram" mc="ClassDiagram" uid="8213c5d6-8067-46f8-a1d3-a8ee5a43a18d"/>

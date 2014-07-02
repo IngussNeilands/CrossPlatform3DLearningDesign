@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Renderer" version="3">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Image" version="3">
   <DEPS>
-    <ID name="Renderer" mc="Class" uid="a320236e-242c-4b65-b3c4-bcc3ce0c36ef"/>
+    <ID name="Image" mc="Class" uid="ed41e99d-efc5-4c82-89e9-262d2e79fecb"/>
   </DEPS>
   <OBJECT>
-    <ID name="Renderer" mc="Class" uid="a320236e-242c-4b65-b3c4-bcc3ce0c36ef"/>
+    <ID name="Image" mc="Class" uid="ed41e99d-efc5-4c82-89e9-262d2e79fecb"/>
     <PID name="Design" mc="Package" uid="d79aade3-decd-4be6-8f8d-a3879f920f96"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -14,7 +14,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Renderer]]></ATT>
+      <ATT name="Name"><![CDATA[Image]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>
