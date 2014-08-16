@@ -12,7 +12,10 @@
     <COMPID name="SDL" mc="Component" uid="32c90b06-9b54-4948-bffd-31f5385290ea"/>
     <COMPID name="Unit Testing Code" mc="Component" uid="5476234d-4c4b-4fb2-b4b9-16e20c325645"/>
     <COMPID name="Windows - VS Project" mc="Component" uid="877be88e-0bfe-4f1c-95f5-6e31942efc4d"/>
+    <COMPID name="glm" mc="Component" uid="86993c8e-1097-425b-95f6-6b9963341f43"/>
+    <COMPID name="libpng" mc="Component" uid="128ce66f-3e28-49c3-b0d8-69c8fe12f2a7"/>
     <COMPID name="overview diagram" mc="ClassDiagram" uid="e13beaa4-2657-41b2-9e5c-afc0f36fa970"/>
+    <COMPID name="zlib" mc="Component" uid="0a81bb2f-cd39-44a9-b365-55b35df81ce5"/>
   </DEPS>
   <OBJECT>
     <ID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
@@ -38,6 +41,9 @@
         <COMPID name="Windows - VS Project" mc="Component" uid="877be88e-0bfe-4f1c-95f5-6e31942efc4d"/>
         <COMPID name="Boost Test" mc="Component" uid="76547890-3ff9-46b8-a73d-9a8e3077dc31"/>
         <COMPID name="Design" mc="Package" uid="d79aade3-decd-4be6-8f8d-a3879f920f96"/>
+        <COMPID name="libpng" mc="Component" uid="128ce66f-3e28-49c3-b0d8-69c8fe12f2a7"/>
+        <COMPID name="zlib" mc="Component" uid="0a81bb2f-cd39-44a9-b365-55b35df81ce5"/>
+        <COMPID name="glm" mc="Component" uid="86993c8e-1097-425b-95f6-6b9963341f43"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="ClassDiagram" uid="e13beaa4-2657-41b2-9e5c-afc0f36fa970"/>

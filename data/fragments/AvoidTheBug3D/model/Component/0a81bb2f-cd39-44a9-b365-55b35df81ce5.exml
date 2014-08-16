@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="zlib" version="3">
+  <DEPS>
+    <ID name="zlib" mc="Component" uid="0a81bb2f-cd39-44a9-b365-55b35df81ce5"/>
+    <EXTID name="libpng" mc="Component" uid="128ce66f-3e28-49c3-b0d8-69c8fe12f2a7"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="zlib" mc="Component" uid="0a81bb2f-cd39-44a9-b365-55b35df81ce5"/>
+    <PID name="avoidthebug3d" mc="Package" uid="c2816ba9-07e2-476f-953b-b1176b35e4cf"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[zlib]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Port" uid="22585a5e-748c-4f24-badf-4c5a2160b132"/>
+          <PID name="zlib" mc="Component" uid="0a81bb2f-cd39-44a9-b365-55b35df81ce5"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="ProvidedInterface" uid="7b535176-b2f7-4c78-a8e3-4344eb4d2ac4"/>
+                <PID name="zlib" mc="Component" uid="0a81bb2f-cd39-44a9-b365-55b35df81ce5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="NaryConnectorEnd" uid="91a658fd-171f-4c16-a3f8-27768b711aef"/>
+                <PID name="zlib" mc="Component" uid="0a81bb2f-cd39-44a9-b365-55b35df81ce5"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="NaryConnector" uid="e387d693-360f-49b2-af2c-ade85ed5e19b"/>
+                      <PID name="zlib" mc="Component" uid="0a81bb2f-cd39-44a9-b365-55b35df81ce5"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <COMPID name="" mc="NaryConnectorEnd" uid="91a658fd-171f-4c16-a3f8-27768b711aef"/>
+                          <OBJECT>
+                            <ID name="" mc="NaryConnectorEnd" uid="ed121b83-2016-4021-a781-b3d5fb5bfeed"/>
+                            <PID name="zlib" mc="Component" uid="0a81bb2f-cd39-44a9-b365-55b35df81ce5"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="NaryConnector" uid="e387d693-360f-49b2-af2c-ade85ed5e19b"/>
+                              </COMP>
+                              <LINK relation="Provider">
+                                <REFOBJ>
+                                  <ID name="ProvidedInterface" mc="ProvidedInterface" uid="7b535176-b2f7-4c78-a8e3-4344eb4d2ac4"/>
+                                  <PID name="zlib" mc="Component" uid="0a81bb2f-cd39-44a9-b365-55b35df81ce5"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Consumer">
+                    <REFOBJ>
+                      <ID name="RequiredInterface" mc="RequiredInterface" uid="f8c966b5-a54e-4d38-87b4-d4b69d620e35"/>
+                      <PID name="libpng" mc="Component" uid="128ce66f-3e28-49c3-b0d8-69c8fe12f2a7"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
