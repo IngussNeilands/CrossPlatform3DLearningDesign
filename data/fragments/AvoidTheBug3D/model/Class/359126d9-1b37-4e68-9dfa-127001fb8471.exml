@@ -3,6 +3,7 @@
   <DEPS>
     <ID name="PlayerView" mc="Class" uid="359126d9-1b37-4e68-9dfa-127001fb8471"/>
     <EXTID name="Renderer" mc="Class" uid="a320236e-242c-4b65-b3c4-bcc3ce0c36ef"/>
+    <EXTID name="WorldObject" mc="Class" uid="067eee4b-62dc-4e3c-ba3c-e27f536aadcc"/>
   </DEPS>
   <OBJECT>
     <ID name="PlayerView" mc="Class" uid="359126d9-1b37-4e68-9dfa-127001fb8471"/>
@@ -80,15 +81,71 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="1f0f6106-25a3-40c9-b97b-907883373cd3"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="worldObject" mc="AssociationEnd" uid="bb66bbbb-078a-4b92-9311-a5395e64aaa7"/>
+          <PID name="PlayerView" mc="Class" uid="359126d9-1b37-4e68-9dfa-127001fb8471"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[worldObject]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="WorldObject" mc="Class" uid="067eee4b-62dc-4e3c-ba3c-e27f536aadcc"/>
+            </LINK>
+            <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Association" uid="1f0f6106-25a3-40c9-b97b-907883373cd3"/>
+                <ID name="" mc="AssociationEnd" uid="93411cd3-d0eb-4ba1-9bf9-9f4a5069b7cf"/>
                 <PID name="PlayerView" mc="Class" uid="359126d9-1b37-4e68-9dfa-127001fb8471"/>
                 <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="worldObject" mc="AssociationEnd" uid="bb66bbbb-078a-4b92-9311-a5395e64aaa7"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="0b5139ba-1667-41f1-a9f0-b5e92783d2f8"/>
+                      <PID name="PlayerView" mc="Class" uid="359126d9-1b37-4e68-9dfa-127001fb8471"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
               </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="0b5139ba-1667-41f1-a9f0-b5e92783d2f8"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
